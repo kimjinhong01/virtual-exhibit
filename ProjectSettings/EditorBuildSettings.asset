@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 6e5ab38bbe8a65d459f121e7f01e5245
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: c61e6eff40c9e774fb8b21e4bed3798e,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cb70e85867c67b64d9d34fbbe4a76dc3,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5dbe03d48c9854946b5dfcdcec6c63ad,
+      type: 2}

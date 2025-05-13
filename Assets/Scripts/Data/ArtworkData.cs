@@ -6,7 +6,7 @@ using UnityEngine;
 public class ArtworkData : ScriptableObject
 {
     public string title;
-    public string description;
+    [TextArea] public string description;
     public AudioClip voiceClip;
     public Sprite artworkImage;
 }
