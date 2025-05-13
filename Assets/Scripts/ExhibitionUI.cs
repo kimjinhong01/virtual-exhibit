@@ -13,9 +13,6 @@ public class ExhibitionUI : MonoBehaviour
 
     public void DisplayArtwork(ArtworkData data)
     {
-        if (panel.activeSelf)
-            return;
-
         panel.SetActive(true);
         titleText.text = data.title;
         descriptionText.text = data.description;
